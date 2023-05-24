@@ -1,0 +1,563 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    background-color: #333333;
+    font-family: gandom;
+}
+
+@font-face {
+    font-family: gandom;
+    src: url(./fonts/Gandom.eot);
+    src: url(./fonts/Gandom.eot) format('embedded-opentype'),
+        url(./fonts/Gandom.woff2) format('woff2'),
+        url(./fonts/Gandom.woff) format('woff'),
+        url(./fonts/Gandom.ttf) format('truetype');
+}
+
+.container {
+    width: 805px;
+    height: 1450px;
+    position: relative;
+    top: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-information {
+    width: 270px;
+    background-color: #eeeeee;
+
+}
+
+.Business-information {
+    width: 530px;
+    background-color: #ffffff;
+}
+
+.box-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    position: relative;
+}
+
+.img-profile {
+    height: 100px;
+    width: 202.5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.name p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #555555;
+    text-align: center;
+    line-height: 30px;
+}
+
+.name {
+    width: 202.5;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.profile {
+    height: 45px;
+    width: 202.5px;
+    margin: 38px 0 0px 0;
+    padding: 5px 0 0px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.profile p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #555555;
+}
+
+
+.box-profile .email,
+.box-profile .mobile {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(74, 170, 211);
+}
+
+.box-profile .email:hover,
+.box-profile .mobile:hover {
+    color: #1988b8;
+}
+
+.profile-list {
+    line-height: 38px;
+
+}
+
+.profile-list span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.box-profile p {
+    padding-right: 30px;
+    padding-bottom: 35px;
+    font-size: 11.2px;
+    font-weight: 300;
+    color: #555555;
+    margin-top: 740px;
+}
+
+.box-profile .Specifications {
+    font-weight: 300;
+    font-size: 18px;
+    color: #555555;
+}
+
+.box-profile {
+    margin-right: 5px;
+}
+
+.activity {
+    width: 440px;
+    height: 170px;
+    margin: auto;
+
+}
+
+.me {
+    width: 440px;
+    height: 38px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-top: 34px;
+
+}
+
+.me h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #555555;
+    padding-right: 0;
+
+}
+
+.about-me {
+    height: 146px;
+    margin-top: 12px;
+}
+
+.about-me p {
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+.about-me h2 {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.job-records {
+    width: 440px;
+    margin: auto;
+}
+
+.job-r {
+    width: 440px;
+    height: 38px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-top: 30px;
+
+}
+
+.job-r h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #555555;
+    padding-right: 0;
+
+}
+
+.job {
+    width: 383px;
+}
+
+.job-1401,
+.job-1396,
+.job-1393,
+.job-1390 {
+    width: 360px;
+    height: 70px;
+    margin-top: 12px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.job-records li,
+.Dominate-language li {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 7px;
+
+}
+
+.job-records .p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #555555;
+    padding-right: 25px;
+
+}
+
+
+li {
+    list-style: none;
+    padding-right: 25px;
+    padding-left: 5px;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 16PX;
+    color: rgb(85, 85, 85);
+    margin-top: 10px;
+
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.q,
+.s {
+    display: flex;
+    flex-direction: row;
+}
+
+.l,
+.m,
+.n {
+    width: 350px;
+    height: 30px;
+    margin: 5px;
+}
+
+.educational-1387,
+.educational-1394 {
+    margin-bottom: 50px;
+
+}
+
+.l,
+.m,
+.n,
+.o,
+.q,
+.s {
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+}
+
+.educational-1387,
+.educational-1394 {
+    margin-bottom: 50px;
+
+}
+
+.job .icon-square {
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
+
+.job .icon-s {
+    font-size: 8px;
+    color: #555555;
+}
+
+.skills .icon-s {
+    font-size: 8px;
+    color: #555555;
+}
+
+.job .icon-circle {
+    padding-top: 3px;
+    width: 12px;
+    height: 12px;
+    padding-right: 12px;
+}
+
+.job .icon-c {
+    font-size: 13px;
+    color: #AAAAAA;
+}
+
+.skills .icon-square {
+    padding-top: 8px;
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
+
+.skills {
+    width: 440px;
+    margin: auto;
+}
+
+.skills-r {
+    width: 440px;
+    height: 38px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-top: 70px;
+
+}
+
+.skills-r h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #555555;
+    padding-right: 0;
+
+}
+
+.skills ul {
+    margin-bottom: 60px;
+    width: 383px;
+    padding-right: 25px;
+
+}
+
+.skills li {
+    font-weight: 300;
+    font-size: 17px;
+    color: #555555;
+}
+
+.i,
+.j,
+.k,
+.icon-s {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.java,
+.content,
+.php {
+    width: 400px;
+    height: 30px;
+}
+
+.educational-records {
+    width: 440px;
+    margin: auto;
+}
+
+.educational-r {
+    width: 440px;
+    height: 38px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-top: 70px;
+
+}
+
+.educational-r h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #555555;
+    padding-right: 0;
+
+}
+
+.educational-records ul {
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.educational-records li {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 7px;
+}
+
+.educational-records span {
+    padding-right: 30px;
+    padding-left: 40px;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 15PX;
+    color: #555555;
+    margin-top: 10px;
+}
+
+.educational-records p {
+    padding-right: 30px;
+    padding-left: 40px;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 16PX;
+    color: #555555;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+.Dominate-l {
+    width: 440px;
+    height: 38px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-top: 70px;
+    padding-right: 0;
+
+}
+
+.Dominate-l h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #555555;
+
+}
+
+.Dominate-language {
+    width: 440px;
+    margin: auto;
+}
+
+
+
+.Dominate-language span {
+    font-size: 17PX;
+    font-weight: 300;
+    color: #555555;
+}
+
+
+.educational-1387 .icon-square {
+    padding-top: 5px;
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
+
+.educational-1387 .icon-s {
+    font-size: 8px;
+    color: #555555;
+}
+
+.educational-1387 .icon-circle {
+    padding-top: 12px;
+    width: 12px;
+    height: 12px;
+    padding-right: 12px;
+}
+
+.educational-1387 .icon-c {
+    font-size: 13px;
+    color: #AAAAAA;
+}
+
+.educational-1387 .icon-square {
+    padding-top: 8px;
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
+
+.educational-1387 .icon-b {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.educational-1387 .icon-building {
+    padding-top: 12px;
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
+
+.educational-1387 .icon-square {
+    padding-top: 5px;
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
+
+.educational-1394 .icon-s {
+    font-size: 8px;
+    color: #555555;
+}
+
+.educational-1394 .icon-circle {
+    padding-top: 12px;
+    width: 12px;
+    height: 12px;
+    padding-right: 12px;
+}
+
+.educational-1394 .icon-c {
+    font-size: 13px;
+    color: #AAAAAA;
+}
+
+.educational-1394 .icon-square {
+    padding-top: 8px;
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
+
+.educational-1394 .icon-b {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.educational-1394 .icon-building {
+    padding-top: 12px;
+    width: 10px;
+    height: 10px;
+    padding-right: 12px;
+}
